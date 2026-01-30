@@ -29,6 +29,13 @@ Dockerを用いて以下の技術スタックで構築されています。
 
 ## 機能一覧
 1. **ダッシュボード**: 全体の統計情報やタイムライングラフを表示します。
+   
+   **User View Timeline:**
+   ![User View Timeline](docs/user_view_timeline.png)
+
+   **Project View Timeline:**
+   ![Project View Timeline](docs/project_view_timeline.png)
+
 2. **メンバー管理**: メンバーの追加・編集・削除が可能です。
 3. **プロジェクト管理**: プロジェクトの期間設定や説明の追加が可能です。
 4. **設定**: 役職（タイトル）のカスタマイズが可能です。
