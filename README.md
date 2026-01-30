@@ -49,11 +49,11 @@ docker compose exec backend python seed_data.py
 
 **ユーザービュー (User View):**
 特定のユーザーを選択すると、そのユーザーが抱えているプロジェクトのアサイン状況がタイムライン上に表示されます。各バーにはプロジェクト名が重ねて表示され、一目で把握できます。
-![User View Dashboard](docs/images/dashboard_user_view.png)
+![User View Dashboard](docs/images/user_view_timeline.png)
 
 **プロジェクトビュー (Project View):**
 特定のプロジェクトを選択すると、そのプロジェクトにアサインされている全メンバーのタイムラインが表示されます。各バーにはメンバー名が重ねて表示されます。
-![Project View Dashboard](docs/images/dashboard_project_view.png)
+![Project View Dashboard](docs/images/project_view_timeline.png)
 
 #### 稼働率チャート
 - **メンバー稼働率 (Member Allocation):** 稼働超過（100%超え、赤色）、適正稼働（100%、緑色）、稼働不足（青色）を一目で識別できます。
